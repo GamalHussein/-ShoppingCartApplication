@@ -1,0 +1,2 @@
+E:\MyShop\MyShop.Web\wwwroot\js\admin.js
+E:\MyShop\MyShop.Web\wwwroot\css\admin.css

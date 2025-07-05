@@ -1,0 +1,31 @@
+﻿@using MyShop.Entities.Models
+@model IEnumerable<Category>
+
+<h3>Categories</h3>
+<a asp-action="Create" class="btn btn-primary">Create</a>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Category Name</th>
+			<th>Description</th>
+			<th>Created Time</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var category in Model)
+		{
+			<tr>
+				<td>@category.Name</td>
+				<td>@category.Description</td>
+				<td>@category.CreatedDate</td>
+				<td>
+					<a asp-action="Edit" asp-route-id="@category.Id" class="btn btn-primary">Edit</a>
+					<a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+
+	

@@ -1,0 +1,48 @@
+﻿@using MyShop.Entities.ViewModels
+@model ProductVM
+
+@{
+	ViewBag.PageTitle = "Product Managment";
+	ViewBag.Title = "Edit Product";
+	Layout = "~/Views/Shared/_Dashbord.cshtml";
+}
+
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Edit" method="post" enctype="multipart/form-data">
+			<input type="hidden" asp-for="product.Id" />
+			<input type="hidden" asp-for="product.ImageUrl" />
+			<div class="form-group">
+				<label asp-for="product.Name"></label>
+				<input asp-for="product.Name" class="form-control" />
+				<span asp-validation-for="product.Name" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="product.Description"></label>
+				<textarea asp-for="product.Description" class="form-control"></textarea>
+				<span asp-validation-for="product.Description" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="product.Price"></label>
+				<input asp-for="product.Price" class="form-control" />
+				<span asp-validation-for="product.Price" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="product.ImageUrl"></label>
+				<input type="file" name="file" id="imgfile" class="form-control" />
+			</div>
+			<div class="form-group">
+				<label asp-for="product.CategoryId"></label>
+				<select asp-for="product.CategoryId" class="form-control" asp-items="Model.Categories">
+					<option disabled selected value="">Select Category</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Save" class="btn btn-success" />
+			</div>
+		</form>
+	</div>
+	<div class="countainer">
+		<img id="imagePrievew" src="~/@Model.product.ImageUrl" width="400" height="400"/>
+	</div>
+</div>

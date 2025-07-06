@@ -15,3 +15,4 @@ E:\MyShop\MyShop.DataAccess\obj\Debug\net9.0\MyShop.DataAccess.pdb
 E:\MyShop\MyShop.DataAccess\obj\Debug\net9.0\ref\MyShop.DataAccess.dll
 E:\MyShop\MyShop.DataAccess\bin\Debug\net9.0\MyShop.DataAccess.runtimeconfig.json
 E:\MyShop\MyShop.DataAccess\obj\Debug\net9.0\MyShop.DataAccess.genruntimeconfig.cache
+E:\MyShop\MyShop.DataAccess\obj\Debug\net9.0\MyShop.DataAccess.sourcelink.json

@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MyShop.DataAccess.Data;
+using MyShop.DataAccess.Implementation;
+using MyShop.Entities.Repositores;
 
 namespace MyShop.Web
 {
@@ -17,6 +19,7 @@ namespace MyShop.Web
 				option=>option.UseSqlServer(
 					builder.Configuration.GetConnectionString("DefaultConnection")));
 
+			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
@@ -35,7 +38,7 @@ namespace MyShop.Web
 			app.MapStaticAssets();
 			app.MapControllerRoute(
 				name: "default",
-				pattern: "{controller=Category}/{action=Index}/{id?}")
+				pattern: "{area=Admin}/{controller=Category}/{action=Index}/{id?}")
 				.WithStaticAssets();
 
 			app.Run();

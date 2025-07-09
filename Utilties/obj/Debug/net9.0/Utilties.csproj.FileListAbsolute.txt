@@ -1,0 +1,13 @@
+E:\MyShop\Utilties\bin\Debug\net9.0\Utilties.deps.json
+E:\MyShop\Utilties\bin\Debug\net9.0\Utilties.dll
+E:\MyShop\Utilties\bin\Debug\net9.0\Utilties.pdb
+E:\MyShop\Utilties\obj\Debug\net9.0\Utilties.csproj.AssemblyReference.cache
+E:\MyShop\Utilties\obj\Debug\net9.0\Utilties.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyShop\Utilties\obj\Debug\net9.0\Utilties.AssemblyInfoInputs.cache
+E:\MyShop\Utilties\obj\Debug\net9.0\Utilties.AssemblyInfo.cs
+E:\MyShop\Utilties\obj\Debug\net9.0\Utilties.csproj.CoreCompileInputs.cache
+E:\MyShop\Utilties\obj\Debug\net9.0\Utilties.sourcelink.json
+E:\MyShop\Utilties\obj\Debug\net9.0\Utilties.dll
+E:\MyShop\Utilties\obj\Debug\net9.0\refint\Utilties.dll
+E:\MyShop\Utilties\obj\Debug\net9.0\Utilties.pdb
+E:\MyShop\Utilties\obj\Debug\net9.0\ref\Utilties.dll

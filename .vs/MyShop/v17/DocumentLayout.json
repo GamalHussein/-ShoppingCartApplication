@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "E:\\MyShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38DB746C-BFA3-429E-9398-6F887DD48DFC}|MyShop.Web\\MyShop.Web.csproj|e:\\myshop\\myshop.web\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{38DB746C-BFA3-429E-9398-6F887DD48DFC}|MyShop.Web\\MyShop.Web.csproj|solutionrelative:myshop.web\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{38DB746C-BFA3-429E-9398-6F887DD48DFC}|MyShop.Web\\MyShop.Web.csproj|e:\\myshop\\myshop.web\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38DB746C-BFA3-429E-9398-6F887DD48DFC}|MyShop.Web\\MyShop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38DB746C-BFA3-429E-9398-6F887DD48DFC}|MyShop.Web\\MyShop.Web.csproj|e:\\myshop\\myshop.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38DB746C-BFA3-429E-9398-6F887DD48DFC}|MyShop.Web\\MyShop.Web.csproj|solutionrelative:myshop.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B615941-541D-4603-AB72-0DA5267A22F7}|MyShop.Data\\MyShop.Entities.csproj|e:\\myshop\\myshop.data\\repositores\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B615941-541D-4603-AB72-0DA5267A22F7}|MyShop.Data\\MyShop.Entities.csproj|solutionrelative:myshop.data\\repositores\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EEC32DC-764B-4010-99A0-83519558A993}|MyShop.DataAccess\\MyShop.DataAccess.csproj|e:\\myshop\\myshop.dataaccess\\implementation\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EEC32DC-764B-4010-99A0-83519558A993}|MyShop.DataAccess\\MyShop.DataAccess.csproj|solutionrelative:myshop.dataaccess\\implementation\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38DB746C-BFA3-429E-9398-6F887DD48DFC}|MyShop.Web\\MyShop.Web.csproj|e:\\myshop\\myshop.web\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38DB746C-BFA3-429E-9398-6F887DD48DFC}|MyShop.Web\\MyShop.Web.csproj|solutionrelative:myshop.web\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "E:\\MyShop\\MyShop.Data\\Repositores\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "MyShop.Data\\Repositores\\IBaseRepository.cs",
-              "ToolTip": "E:\\MyShop\\MyShop.Data\\Repositores\\IBaseRepository.cs",
-              "RelativeToolTip": "MyShop.Data\\Repositores\\IBaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T21:35:11.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "E:\\MyShop\\MyShop.DataAccess\\Implementation\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "MyShop.DataAccess\\Implementation\\BaseRepository.cs",
-              "ToolTip": "E:\\MyShop\\MyShop.DataAccess\\Implementation\\BaseRepository.cs",
-              "RelativeToolTip": "MyShop.DataAccess\\Implementation\\BaseRepository.cs",
-              "ViewState": "AgIAABoAAAAAzszMzMwEwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T21:34:55.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\MyShop\\MyShop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "MyShop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\MyShop\\MyShop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "MyShop.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAH8AAAAAMjMzMzMTwIYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T21:26:35.397Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\MyShop\\MyShop.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyShop.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "E:\\MyShop\\MyShop.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "MyShop.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAmpmZmZkJwDgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T22:52:20.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "products.js",
-              "DocumentMoniker": "E:\\MyShop\\MyShop.Web\\wwwroot\\js\\products.js",
-              "RelativeDocumentMoniker": "MyShop.Web\\wwwroot\\js\\products.js",
-              "ToolTip": "E:\\MyShop\\MyShop.Web\\wwwroot\\js\\products.js",
-              "RelativeToolTip": "MyShop.Web\\wwwroot\\js\\products.js",
-              "ViewState": "AgIAAB8AAACAmZmZmZkhwD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-06T21:25:23.147Z",
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\MyShop\\MyShop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MyShop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\MyShop\\MyShop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MyShop.Web\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AgIAADEAAAAAZ2ZmZmYSwEYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T14:53:03.863Z",
               "EditorCaption": ""
             }
           ]

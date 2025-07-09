@@ -8,11 +8,13 @@ namespace MyShop.DataAccess.Implementation
 		private readonly ApplicationDbContext _context;
 		public IProductRepository Product { get; private set; }
 		public ICategoryRepository Category { get; private set; }
+		public IShoppingCartRepository ShoppingCart { get; private set; }
 		public UnitOfWork(ApplicationDbContext context)
 		{
 			_context = context;
 			Category = new CategoryRepository(_context);
 			Product = new ProductRepository(_context);
+			ShoppingCart = new ShoppingCartRepository(_context);
 		}
 
 		public int Save()

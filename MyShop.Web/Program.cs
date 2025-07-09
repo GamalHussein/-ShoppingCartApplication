@@ -2,6 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using MyShop.DataAccess.Data;
 using MyShop.DataAccess.Implementation;
 using MyShop.Entities.Repositores;
+using Microsoft.AspNetCore.Identity;
+using Utilties;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using MyShop.Entities.Models;
 
 namespace MyShop.Web
 {
@@ -19,8 +23,17 @@ namespace MyShop.Web
 				option=>option.UseSqlServer(
 					builder.Configuration.GetConnectionString("DefaultConnection")));
 
+   builder.Services.AddIdentity<IdentityUser,IdentityRole>(
+	             option=>option.Lockout.DefaultLockoutTimeSpan=TimeSpan.FromHours(4))
+				.AddDefaultTokenProviders()
+				.AddDefaultUI()
+				.AddEntityFrameworkStores<ApplicationDbContext>();
+
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+			builder.Services.AddSingleton<IEmailSender, emailSendr>();
+
 			var app = builder.Build();
+
 
 			// Configure the HTTP request pipeline.
 			if (!app.Environment.IsDevelopment())
@@ -34,11 +47,16 @@ namespace MyShop.Web
 			app.UseRouting();
 
 			app.UseAuthorization();
+			app.MapRazorPages();
 
 			app.MapStaticAssets();
 			app.MapControllerRoute(
 				name: "default",
 				pattern: "{area=Admin}/{controller=Category}/{action=Index}/{id?}")
+				.WithStaticAssets();
+			app.MapControllerRoute(
+				name: "Customer",
+				pattern: "{area=Customer}/{controller=Category}/{action=Index}/{id?}")
 				.WithStaticAssets();
 
 			app.Run();

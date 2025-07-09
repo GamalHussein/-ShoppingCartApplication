@@ -4,6 +4,7 @@ E:\MyShop\MyShop.Web\wwwroot\plugins\fontawesome-free\css\regular.css
 E:\MyShop\MyShop.Web\wwwroot\css\alt\adminlte.extra-components.min.css.map
 E:\MyShop\MyShop.Web\wwwroot\css\alt\adminlte.plugins.min.css.map
 E:\MyShop\MyShop.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+E:\MyShop\MyShop.Web\wwwroot\customer\js\scripts.js
 E:\MyShop\MyShop.Web\wwwroot\plugins\fontawesome-free\css\v4-shims.css
 E:\MyShop\MyShop.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 E:\MyShop\MyShop.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
@@ -23,6 +24,7 @@ E:\MyShop\MyShop.Web\wwwroot\css\alt\adminlte.extra-components.css.map
 E:\MyShop\MyShop.Web\wwwroot\plugins\fontawesome-free\css\v4-shims.min.css
 E:\MyShop\MyShop.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 E:\MyShop\MyShop.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+E:\MyShop\MyShop.Web\wwwroot\customer\assets\favicon.ico
 E:\MyShop\MyShop.Web\wwwroot\js\.eslintrc.json
 E:\MyShop\MyShop.Web\wwwroot\plugins\fontawesome-free\webfonts\fa-solid-900.svg
 E:\MyShop\MyShop.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
@@ -105,6 +107,7 @@ E:\MyShop\MyShop.Web\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.valid
 E:\MyShop\MyShop.Web\wwwroot\lib\jquery-validation\LICENSE.md
 E:\MyShop\MyShop.Web\wwwroot\js\adminlte.js
 E:\MyShop\MyShop.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+E:\MyShop\MyShop.Web\wwwroot\customer\css\styles.css
 E:\MyShop\MyShop.Web\wwwroot\lib\jquery\dist\jquery.min.map
 E:\MyShop\MyShop.Web\wwwroot\plugins\jquery\jquery.min.js
 E:\MyShop\MyShop.Web\wwwroot\css\alt\adminlte.pages.min.css.map
@@ -157,6 +160,9 @@ wwwroot\css\alt\adminlte.plugins.css
 wwwroot\css\alt\adminlte.plugins.css.map
 wwwroot\css\alt\adminlte.plugins.min.css
 wwwroot\css\alt\adminlte.plugins.min.css.map
+wwwroot\customer\assets\favicon.ico
+wwwroot\customer\css\styles.css
+wwwroot\customer\js\scripts.js
 wwwroot\favicon.ico
 wwwroot\Images\052620eb-a295-4faf-9618-ed5cff35f7cb.jpg
 wwwroot\Images\89dc2021-ffdd-4aa9-959d-04ea50b5ac40.jpg

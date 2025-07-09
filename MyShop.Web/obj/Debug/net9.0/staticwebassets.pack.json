@@ -137,6 +137,18 @@
       "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css.map"
     },
     {
+      "Id": "E:\\MyShop\\MyShop.Web\\wwwroot\\customer\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\customer\\assets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\MyShop\\MyShop.Web\\wwwroot\\customer\\css\\styles.css",
+      "PackagePath": "staticwebassets\\customer\\css\\styles.css"
+    },
+    {
+      "Id": "E:\\MyShop\\MyShop.Web\\wwwroot\\customer\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\customer\\js\\scripts.js"
+    },
+    {
       "Id": "E:\\MyShop\\MyShop.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
